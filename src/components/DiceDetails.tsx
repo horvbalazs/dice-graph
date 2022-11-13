@@ -47,7 +47,7 @@ const DiceDetails = (props: DiceDetailsProps) => {
     <Card>
       <DetailsWrapper onChange={handleChange} onSubmit={handleSubmit}>
         <label htmlFor="dd-quantity">
-          <Label>Number of dices</Label>
+          <Label>Number of dice</Label>
           <Input
             id="dd-quantity"
             type="number"
